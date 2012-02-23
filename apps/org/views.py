@@ -3,7 +3,7 @@ from django.shortcuts import render_to_response
 from apps.models.models import Student,Parent, Teacher, School, City, School_info,Organization,Temporary
 from django.http import HttpResponseRedirect
 from django.core.urlresolvers import reverse
-from apps.org.forms import RegisterForm, School_reg_form,City_add_form,TemporaryForm
+from org.forms import RegisterForm, School_reg_form,City_add_form,TemporaryForm
 from django.contrib.auth.models import User
 from dnevniktools.dbutils import get_nextautoincrement
 from apps.models import settings as ns
